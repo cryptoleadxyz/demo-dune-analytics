@@ -170,9 +170,11 @@ cython_debug/
 #.idea/
 
 # Others/assorted
-# any files named log regardless of extension
+# Any files named log regardless of extension
 log.*
 # vscode workspace
 *.code-workspace
-# any folders with . as leading characters like .vscode and .devcontainer
+# Any folders with . as leading characters like .vscode and .devcontainer
 /.[^/]*
+# Any file with name _test.*
+_test.*

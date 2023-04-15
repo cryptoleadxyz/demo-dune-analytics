@@ -29,7 +29,7 @@ def pandas_output_setting():
 # pandas_output_setting()
 
 
-# Function that extract full data and column from DuneSQL query result
+# Function that extracts full data and column from DuneSQL query result
 def extract_col_and_data_from_dunesql_result(query_id):
     result_id = dune.query_result_id_v3(query_id=query_id)
     full_data = dune.get_execution_result(result_id)
