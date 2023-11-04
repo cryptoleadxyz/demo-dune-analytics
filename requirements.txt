@@ -4,3 +4,4 @@ python-dotenv==0.16.0
 pandas==1.4.1
 numpy==1.22.4
 scipy==1.8.1
+pillow>=10.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
